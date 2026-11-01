@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_spes.mk
+    $(LOCAL_DIR)/voltage_spes.mk
 
 COMMON_LUNCH_CHOICES := \
-    infinity_spes-user \
-    infinity_spes-userdebug \
-    infinity_spes-eng
+    voltage_spes-user \
+    voltage_spes-userdebug \
+    voltage_spes-eng
