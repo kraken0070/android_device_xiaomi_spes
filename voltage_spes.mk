@@ -19,7 +19,8 @@ TARGET_SCREEN_WIDTH := 1080
 #PRODUCT_SOONG_NAMESPACES += \
 #    vendor/pixelos/pixel-clocks/common
 
-
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-voltage
 
 # Product Specifics
 PRODUCT_NAME := voltage_spes
