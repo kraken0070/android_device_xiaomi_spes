@@ -131,7 +131,7 @@ BOARD_SUPER_PARTITION_GROUPS := qti_dynamic_partitions
 BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := system system_ext product vendor
 BOARD_QTI_DYNAMIC_PARTITIONS_SIZE := 9122611200
 
--include vendor/lineage/config/BoardConfigReservedSize.mk
+include vendor/voltage/config/BoardConfigReservedSize.mk
 BOARD_VENDORIMAGE_PARTITION_RESERVED_SIZE := 104857600
 
 BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
